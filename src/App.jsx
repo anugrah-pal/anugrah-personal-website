@@ -1,6 +1,15 @@
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+
+
 function App() {
   return (
-    <h1>Hello, I'm Anugrah</h1>
+    <>
+    <Navbar />
+    <main>
+      <Hero />
+    </main>
+    </>
   )
 }
 
